@@ -2,7 +2,7 @@ function get_hex(num)
   local b = "ABCDEF"
   local c = {{}, {}, {}}
   local d = {}
-  local hex = ""
+  local hex = "#"
   for k, v in ipairs(num) do
     local d = v / 16
     local e = (d - math.floor(d))
